@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>meridian</title>
+		<link rel="stylesheet" href="css/dropdown.css" type="text/css" />
+		<link rel="stylesheet" href="css/slick.css" type="text/css" />
+		<link rel="stylesheet" href="css/all.css" type="text/css" />
+		<!--[if lte IE 8]><script type="text/javascript" src="js/ie.js"></script><!<![endif]-->
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing-1.3.min.js"></script>
+		<script type="text/javascript" src="js/core.js"></script>
+		<script type="text/javascript" src="js/dropdown.js"></script>
+		<script type="text/javascript" src="js/icheck.min.js"></script>
+		<script type="text/javascript" src="js/jquery.matchHeight.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.1.10.3.min.js"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript" src="js/jquery.knob.js"></script>
+		<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+		<script type="text/javascript" src="js/jquery.main.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoy5Uii-OutziNmdaMkfD9gHI5IWoEMLI&sensor=false&callback=initMap"></script>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			<a href="tel:+73452659047" id="popup__toggle">
+				<div class="circlephone" style="transform-origin: center;"></div>
+				<div class="circle-fill" style="transform-origin: center;"></div>
+				<div class="img-circle" style="transform-origin: center;">
+					<div class="img-circleblock" style="transform-origin: center;">
+						<i class="icon icon-18"></i>
+					</div>
+				</div>
+			</a>
+			<span class="bg"></span>
+			<div class="menu-holder">
+				<a href="#" class="close-menu">
+					<i class="icon icon-close"></i>
+				</a>
+				<div class="scroll-holder">
+					<strong class="logo"><a href="#">meridian</a></strong>
+					<nav id="nav">
+						<ul class="nav-menu">
+							<li>
+								<a href="#">
+									<i class="icon icon-1"></i>
+									Каталог объектов
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-2"></i>
+									Каталог квартир
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-3"></i>
+									База знаний
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-4"></i>
+									Личный кабинет
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="bottom-nav-holder">
+						<ul class="bottom-nav-menu">
+							<li>
+								<a href="#">Зафиксировать клиента</a>
+							</li>
+							<li>
+								<a href="#">Записаться на показ</a>
+							</li>
+							<li>
+								<a href="#">Забронировать квартиру</a>
+							</li>
+						</ul>
+						<div class="tel-holder">
+							<a href="tel:" class="tel">+7 (3452) 65-90-47</a>
+							<a href="#" class="calback-btn"><i class="icon icon-5"></i><span>Обратный звонок</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<header id="header" class="all">
+				<div class="center">
+					<a href="#" class="open-menu">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</a>
+					<ul class="header-nav">
+						<li>
+							<a href="#">О застройщике</a>
+						</li>
+						<li>
+							<a href="#">Новости</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+					<div class="tel-holder">
+						<a href="tel:+73452659047" class="tel">+7 (3452) 65-90-47</a>
+						<a href="#" class="calback-btn"><i class="icon icon-5" ></i><span>Обратный звонок</span></a>
+					</div>
+				</div>
+			</header>
+			<main id="main">
+				<header class="main-head-all">
+					<div class="center">
+						<ul class="breadcrumps">
+							<li>
+								<a href="#">Главная</a>
+							</li>
+							<li>Записаться на показ</li>
+						</ul>
+						<h1>Записаться на показ с клиентом</h1>
+					</div>
+				</header>
+				<section class="make_an_appointment">
+					<div class="center">
+						<form action="#" class="make_an_appointment-form">
+							<fieldset>
+								<div class="form-row-object">
+									<label>Выберите объект *</label>
+									<div class="form-object-select">
+										<select id="alt01" class="select-dropdown">
+											<option data-label="<span class='fs-dropdown-item fs-dropdown-item_placeholder'>ЖК Заречный</span>" ></option>
+											<option>ЖК Заречный1</option>
+											<option>ЖК Заречный2</option>
+											<option>ЖК Заречный3</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-row">
+									<label>Выберите день и время *</label>
+									<ul class="time-list">
+										<li>
+											<label for="alt31">
+												<div class="cell">
+													<span class="day-week">Сегодня</span>
+													<span class="day">31</span>
+													<span class="month">января</span>
+												</div>
+											</label>
+										</li>
+										<li>
+											<label for="alt32">
+												<div class="cell">
+													<span class="day-week">Завтра</span>
+													<span class="day">01</span>
+													<span class="month">февраля</span>
+												</div>
+											</label>
+										</li>
+										<li>
+											<label for="alt33">
+												<div class="cell">
+													<span class="day-week">Чт</span>
+													<span class="day">02</span>
+													<span class="month">февраля</span>
+												</div>
+											</label>
+										</li>
+										<li>
+											<label for="alt34">
+												<div class="cell">
+													<span class="day-week">Пт</span>
+													<span class="day">03</span>
+													<span class="month">февраля</span>
+												</div>
+											</label>
+										</li>
+										<li>
+											<label for="alt35">
+												<div class="cell">
+													<span class="day-week">Сб</span>
+													<span class="day">04</span>
+													<span class="month">февраля</span>
+												</div>
+											</label>
+										</li>
+										<li>
+											<label for="alt36">
+												<div class="cell">
+													<span class="day-week">Нд</span>
+													<span class="day">05</span>
+													<span class="month">февраля</span>
+												</div>
+											</label>
+										</li>
+										<li>
+											<label for="alt37">
+												<div class="cell">
+													<span class="day-week">Пн</span>
+													<span class="day">06</span>
+													<span class="month">февраля</span>
+												</div>
+											</label>
+										</li>
+										<li>
+											<label for="alt38">
+												<div class="cell">
+													<span class="day-week">Вт</span>
+													<span class="day">07</span>
+													<span class="month">февраля</span>
+												</div>
+											</label>
+										</li>
+									</ul>
+									<ul class="radio-list">
+										<li>
+											<input class="radio" name="group02" id="alt08" type="radio">
+											<label for="alt08"><span>11:00</span></label>
+										</li>
+										<li>
+											<input class="radio" name="group02" id="alt09" type="radio">
+											<label for="alt09"><span>12:00</span></label>
+										</li>
+										<li>
+											<input class="radio" name="group02" id="alt10" type="radio">
+											<label for="alt10"><span>14:00</span></label>
+										</li>
+										<li>
+											<input class="radio" name="group02" id="alt11" type="radio">
+											<label for="alt11"><span>15:00</span></label>
+										</li>
+									</ul>
+								</div>
+								<div class="form-row">
+									<label for="alt02">ФИО клиента *</label>
+									<input id="alt02" type="text" class="required" >
+								</div>
+								<div class="two-columns">
+									<div class="col">
+										<div class="form-row">
+											<label for="alt02">Телефон клиента *</label>
+											<input id="alt02" type="text" class="phone" >
+										</div>
+									</div>
+									<div class="col">
+										<div class="form-row">
+											<label for="alt03">Дополнительный телефон</label>
+											<input id="alt03" type="text" class="phone" >
+										</div>
+									</div>
+								</div>
+								<div class="form-row">
+									<label for="alt16" >Пожелания клиента</label>
+									<textarea  id="alt16"></textarea>
+								</div>
+								<div class="form-row">
+									<label for="alt17" >От</label>
+									<input id="alt17" type="text" placeholder="Агентство: Недвижимость 812 / Имя агента: tean gleg / Телефон агента: +7 (812) 923-53-66 / Email агента: jira.miami999@gmail.com" >
+								</div>
+								<div class="submit-row">
+									<input type="submit" value="Отправить заявку на показ с клиентом">
+								</div>
+							</fieldset>
+						</form>
+					</div>
+				</section>
+			</main>
+		</div>
+		<footer id="footer">
+				<div class="row-top">
+					<div class="center">
+						<a href="#" class="ask-question">
+							<i class="icon icon-17"></i>
+							<div class="holder">
+								<span class="title">Остались вопросы?</span>
+								<span class="text">Наш менеджер ответит на все интересующие вас вопросы</span>
+							</div>
+						</a>
+						<a href="+3452659047" class="tel">+7 (3452) 65-90-47</a>
+					</div>
+				</div>
+				<div class="row-bot">
+					<div class="center">
+						<span class="copy">© ГК Мередиан, 2017. Все права защищены</span>
+						<span  class="i-media">Создание сайта, реклама в Интернете — <a href="http://dev.i-media.ru/" target="_blank" class="logo-foot"><img src="images/logo-foot.png" alt="image description"></a></span>
+					</div>
+				</div>
+		</footer>
+		<div id="popup-phone" class="popup-holder" style="left: -9999px;">
+			<div class="bg">&nbsp;</div>
+			<div class="popup">
+				<div class="popup-info">
+					<form action="#" class="search">
+						<fieldset>
+							<h3>Оставьте вашу заявку</h3>
+							<span>И наш менеджер перезвонит Вам в течении  15 минут</span>
+							<div class="form-row">
+								<i class="icon icon-4"></i>
+								<input type="text" placeholder="Ваше имя" class="required">
+							</div>
+							<div class="form-row">
+								<i class="icon icon-31"></i>
+								<input type="text" placeholder="Ваш телефон" class="phone">
+							</div>
+							<input type="submit" value="Оставить заявку">
+						</fieldset>
+					</form>
+				</div>
+				<a class="close-popup" href="#"><i class="icon-close"></i></a>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+

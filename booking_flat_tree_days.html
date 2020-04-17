@@ -1,0 +1,3170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>meridian</title>
+		<link rel="stylesheet" href="css/dropdown.css" type="text/css" />
+		<link rel="stylesheet" href="css/slick.css" type="text/css" />
+		<link rel="stylesheet" href="css/all.css" type="text/css" />
+		<!--[if lte IE 8]><script type="text/javascript" src="js/ie.js"></script><!<![endif]-->
+<!-- 		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script> -->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/jquery.easing-1.3.min.js"></script>
+		<script type="text/javascript" src="js/core.js"></script>
+		<script type="text/javascript" src="js/dropdown.js"></script>
+		<script type="text/javascript" src="js/icheck.min.js"></script>
+		<script type="text/javascript" src="js/jquery.matchHeight.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.1.10.3.min.js"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript" src="js/jquery.knob.js"></script>
+		<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+		<script type="text/javascript" src="js/jquery.main.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoy5Uii-OutziNmdaMkfD9gHI5IWoEMLI&sensor=false&callback=initMap"></script>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			<a href="tel:+73452659047" id="popup__toggle">
+				<div class="circlephone" style="transform-origin: center;"></div>
+				<div class="circle-fill" style="transform-origin: center;"></div>
+				<div class="img-circle" style="transform-origin: center;">
+					<div class="img-circleblock" style="transform-origin: center;">
+						<i class="icon icon-18"></i>
+					</div>
+				</div>
+			</a>
+			<span class="bg"></span>
+			<div class="menu-holder">
+				<a href="#" class="close-menu">
+					<i class="icon icon-close"></i>
+				</a>
+				<div class="scroll-holder">
+					<strong class="logo"><a href="#">meridian</a></strong>
+					<nav id="nav">
+						<ul class="nav-menu">
+							<li>
+								<a href="#">
+									<i class="icon icon-1"></i>
+									Каталог объектов
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-2"></i>
+									Каталог квартир
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-3"></i>
+									База знаний
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-4"></i>
+									Личный кабинет
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="bottom-nav-holder">
+						<ul class="bottom-nav-menu">
+							<li>
+								<a href="#">Зафиксировать клиента</a>
+							</li>
+							<li>
+								<a href="#">Записаться на показ</a>
+							</li>
+							<li>
+								<a href="#">Забронировать квартиру</a>
+							</li>
+						</ul>
+						<div class="tel-holder">
+							<a href="tel:" class="tel">+7 (3452) 65-90-47</a>
+							<a href="#" class="calback-btn"><i class="icon icon-5"></i><span>Обратный звонок</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<header id="header" class="all">
+				<div class="center">
+					<a href="#" class="open-menu">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</a>
+					<ul class="header-nav">
+						<li>
+							<a href="#">О застройщике</a>
+						</li>
+						<li>
+							<a href="#">Новости</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+					<div class="tel-holder">
+						<a href="tel:+73452659047" class="tel">+7 (3452) 65-90-47</a>
+						<a href="#" class="calback-btn"><i class="icon icon-5" ></i><span>Обратный звонок</span></a>
+					</div>
+				</div>
+			</header>
+			<main id="main">
+				<header class="main-head-all">
+					<div class="center">
+						<ul class="breadcrumps">
+							<li>
+								<a href="#">Главная</a>
+							</li>
+							<li>Забронировать квартиру</li>
+						</ul>
+						<h1>Новое бронирование</h1>
+					</div>
+				</header>
+				<section class="booking_flat">
+					<div class="center">
+						<form action="#" class="booking_flat-form">
+							<fieldset>
+								<div class="form-row">
+									<label for="alt01">Тип бронирования *</label>
+									<select id="alt01" class="select-dropdown">
+										<option data-label="<span class='fs-dropdown-item fs-dropdown-item_placeholder'>Резерв квартиры на 3 дня</span>" ></option>
+										<option>Резерв квартиры на 3 дня</option>
+										<option>Резерв квартиры на 4 дня</option>
+										<option>Резерв квартиры на 5 дней</option>
+									</select>
+									<span class="info">По истечении срока квартира автоматически освобождается и выходит в свободную продажу. Бронирование на 3 дня, возможно при наличии скан-копии паспорта клиента</span>
+									<div class="file_upload">
+										<button type="button">Прикрепить скан</button>
+										<div>Файл не выбран</div>
+										<input type="file">
+									</div>
+								</div>
+								<header class="head">
+									<h2>Информация о клиенте</h2>
+								</header>
+								<div class="form-row">
+									<label >Клиенты *</label>
+									<div class="row-client">
+										<input type="text"  class="required">
+									</div>
+									<div class="row-client">
+										<input type="text"  class="required">
+									</div>
+									<a href="#" class="btn-add"><span>Добавить еще</span></a>
+								</div>
+								<div class="form-row">
+									<label >Телефон клиента *</label>
+									<div class="row-client">
+										<input type="text" class="phone">
+									</div>
+									<a href="#" class="btn-add"><span>Добавить еще</span></a>
+								</div>
+								<div class="form-row">
+									<label >Email клиента</label>
+									<div class="row-client">
+										<input type="text" class="email">
+									</div>
+									<a href="#" class="btn-add"><span>Добавить еще</span></a>
+								</div>
+								<div class="form-row">
+									<label >Адрес фактического проживания</label>
+									<input type="text">
+								</div>
+								<header class="head">
+									<h2>Информация о помещении</h2>
+									<div class="btn-holder">
+										<a href="#" class="btn">Выбрать квартиру</a>
+									</div>
+								</header>
+								<div class="two-columns">
+									<div class="col">
+										<div class="form-row">
+											<label for="alt02">Объект</label>
+											<input id="alt02" type="text" >
+										</div>
+										<div class="form-row">
+											<label for="alt03">Этаж</label>
+											<input id="alt03" type="text" >
+										</div>
+										<div class="form-row">
+											<label for="alt04">Квартира на этаже</label>
+											<input id="alt04" type="text" >
+										</div>
+									</div>
+									<div class="col">
+										<div class="form-row">
+											<label for="alt05">ГП</label>
+											<input id="alt05" type="text" >
+										</div>
+										<div class="form-row">
+											<label for="alt06">Площадь</label>
+											<input id="alt06" type="text" >
+										</div>
+										<div class="form-row">
+											<label for="alt07">Итоговая стоимость квартиры</label>
+											<input id="alt07" type="text" >
+										</div>
+									</div>
+								</div>
+								<header class="head">
+									<h2>Дополнительно</h2>
+								</header>
+								<div class="form-row">
+									<label for="alt08" >Пожелания клиента</label>
+									<textarea  id="alt08"></textarea>
+								</div>
+								<div class="submit-row">
+									<input type="submit" value="Сохранить изменения">
+								</div>
+							</fieldset>
+						</form>
+					</div>
+				</section>
+			</main>
+		</div>
+		<footer id="footer">
+				<div class="row-top">
+					<div class="center">
+						<a href="#" class="ask-question">
+							<i class="icon icon-17"></i>
+							<div class="holder">
+								<span class="title">Остались вопросы?</span>
+								<span class="text">Наш менеджер ответит на все интересующие вас вопросы</span>
+							</div>
+						</a>
+						<a href="+3452659047" class="tel">+7 (3452) 65-90-47</a>
+					</div>
+				</div>
+				<div class="row-bot">
+					<div class="center">
+						<span class="copy">© ГК Мередиан, 2017. Все права защищены</span>
+						<span  class="i-media">Создание сайта, реклама в Интернете — <a href="http://dev.i-media.ru/" target="_blank" class="logo-foot"><img src="images/logo-foot.png" alt="image description"></a></span>
+					</div>
+				</div>
+		</footer>
+		<div id="popup-choose-flat" class="popup-holder" style="left: -9999px;">
+			<div class="bg">&nbsp;</div>
+			<div class="popup">
+				<div class="popup-info">
+					<header class="head">
+						<h2>Выберите квартиру на схеме дома</h2>
+						<div class="row">
+							<label for="alt40">Выберите объект:</label>
+							<div class="select-holder">
+								<select id="alt40" class="select-dropdown">
+									<option>ЖК Заречный</option>
+									<option>ЖК Заречный</option>
+									<option>ЖК Заречный</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<label for="alt41">Выбирите ГП и подъезд:</label>
+							<div class="select-holder">
+								<select id="alt41" class="select-dropdown">
+									<option>ГП-1, Подъезд 2</option>
+									<option>ГП-1, Подъезд 2</option>
+									<option>ГП-1, Подъезд 2</option>
+								</select>
+							</div>
+						</div>
+					</header>
+					<div class="cart-sheme-holder">
+						<div class="flat-menu-cheme">
+								<ul class="flat-filter">
+									<li >
+										<a href="#" data-apartment-type="all"><span>Все</span></a>
+									</li>
+									<li>
+										<a href="#" data-apartment-type="студия"><span>Студ.</span></a>
+									</li>
+									<li>
+										<a href="#" data-apartment-type="1 комнатная"><span>1 ком.</span></a>
+									</li>
+									<li>
+										<a href="#" data-apartment-type="2 комнатная"><span>2 ком.</span></a>
+									</li>
+								</ul>
+								<div class="house">
+									<div class="floor" data-floor="19">
+										<div class="floor__number">19 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+										</div>
+									</div>
+									<div class="floor" data-floor="18">
+										<div class="floor__number">18 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.2
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img2.png">1.8
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold" ></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold" ></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img2.png">2.5
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+										</div>
+									</div>
+									<div class="floor" data-floor="17">
+										<div class="floor__number">17 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_available" data-image="images/img2.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_booked">2.4</span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img2.png">1.7
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_booked">1.1</span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img2.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_booked">1.2</span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img3.png">1.3
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img2.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+										</div>
+									</div>
+									<div class="floor" data-floor="16">
+										<div class="floor__number">16 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span  data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.2
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span  data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img2.png">1.8
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold" ></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold" ></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">2.5
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img2.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+										</div>
+									</div>
+									<div class="floor" data-floor="15">
+										<div class="floor__number">15 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img2.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span lass="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_booked">2.4</span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img2.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.7
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_booked">1.1</span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img2.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_booked">1.2</span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img3.png">1.3
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+										</div>
+									</div>
+									<div class="floor" data-floor="14">
+										<div class="floor__number">14 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img2.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">2.4
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img1.png">1.7
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span  data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img1.png">1.3
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.0
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+										</div>
+									</div>
+									<div class="floor" data-floor="13">
+										<div class="floor__number">13 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.2
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.8
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold" ></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold" ></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная"  class="apt apt_available"  data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">2.5
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+										</div>
+									</div>
+									<div class="floor" data-floor="12">
+										<div class="floor__number">12 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img2.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_booked">2.4</span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span  data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span  data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.7
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_booked">1.1</span>
+											<span  data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_booked">1.2</span>
+											<span  data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.3
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+										</div>
+									</div>
+									<div class="floor" data-floor="11">
+										<div class="floor__number">14 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img2.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">2.4
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img1.png">1.7
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span  data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img1.png">1.3
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.0
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+										</div>
+									</div>
+									<div class="floor" data-floor="10">
+										<div class="floor__number">13 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.2
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.8
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold" ></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold" ></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная"  class="apt apt_available"  data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">2.5
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+										</div>
+									</div>
+									<div class="floor" data-floor="9">
+										<div class="floor__number">12 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img2.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_booked">2.4</span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span  data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span  data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.7
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_booked">1.1</span>
+											<span  data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_booked">1.2</span>
+											<span  data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.3
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+										</div>
+									</div>
+									<div class="floor" data-floor="8">
+										<div class="floor__number">14 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img2.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">2.4
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img1.png">1.7
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span  data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img1.png">1.3
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.0
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+										</div>
+									</div>
+									<div class="floor" data-floor="7">
+										<div class="floor__number">13 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.2
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.8
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold" ></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold" ></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная"  class="apt apt_available"  data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">2.5
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+										</div>
+									</div>
+									<div class="floor" data-floor="6">
+										<div class="floor__number">12 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img2.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_booked">2.4</span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span  data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span  data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.7
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_booked">1.1</span>
+											<span  data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_booked">1.2</span>
+											<span  data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.3
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+										</div>
+									</div>
+									<div class="floor" data-floor="5">
+										<div class="floor__number">14 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img2.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">2.4
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img1.png">1.7
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span  data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img1.png">1.3
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.0
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+										</div>
+									</div>
+									<div class="floor" data-floor="4">
+										<div class="floor__number">13 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.2
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.8
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold" ></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold" ></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная"  class="apt apt_available"  data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">2.5
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+										</div>
+									</div>
+									<div class="floor" data-floor="3">
+										<div class="floor__number">12 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img2.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_booked">2.4</span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span  data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span  data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.7
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_booked">1.1</span>
+											<span  data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span class="apt apt_booked">1.2</span>
+											<span  data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.3
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+										</div>
+									</div>
+									<div class="floor" data-floor="2">
+										<div class="floor__number">14 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img2.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img3.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="2 комнатная" class="apt apt_available" data-image="images/img1.png">2.4
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="1 комнатная" class="apt apt_available" data-image="images/img1.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия" class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available" data-image="images/img1.png">1.1
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img1.png">1.7
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span  data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.0
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img1.png">1.3
+											<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div></span>
+											<span class="apt apt_sold"></span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.1
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+											<span data-apartment-type="студия"  class="apt apt_available"  data-image="images/img2.png">1.0
+												<div class="apt-popover">
+													<div class="visual">
+														<img src="images/img1.png" alt="image description">
+													</div>
+													<div class="apt-popover__title">Студия</div>
+													<div class="apt-popover__price">
+														<div class="apt-popover__highlighted">1 120 000 руб.</div>
+													</div>
+													<div class="apt-popover__bottom">
+														<span class="apt-popover__grey-text">Площадь: </span>20.29 м<sup>2</sup>
+													</div>
+												</div>
+											</span>
+										</div>
+									</div>
+									<div class="floor" data-floor="1">
+										<div class="floor__number">1 эт.</div>
+										<div class="floor__apts">
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+											<span class="apt apt_sold">-</span>
+										</div>
+									</div>
+								</div>
+								<ul class="chessboard__legend">
+									<li>В продаже</li>
+									<li>Акция</li>
+									<li>Бронь</li>
+									<li>Продано</li>
+								</ul>
+							</div>
+						<div class="flat-variants-holder">
+							<div class="flat-info">
+								<div class="flat-info-top">
+									<span class="title">Cтудия 19.6 м <sup>2</sup></span>
+									<span class="sub_title">Срок сдачи: III кв. 2019</span>
+								</div>
+								<div class="visual">
+									<img src="images/img8.png" alt="image description">
+								</div>
+								<a href="#" class="btn-zoom">
+									<i class="icon icon-30"></i>
+									Увеличить планировку
+								</a>
+								<span class="stock">Квартира участвует в акции</span>
+								<div class="flat-info__bottom">
+									<span class="title-bottom">Квартира на плане этажа:</span>
+									<div class="visual-plan">
+										<img src="images/img9.png" alt="image description">
+									</div>
+								</div>
+								<a href="#" class="btn-zoom">
+									<i class="icon icon-30"></i>
+									Увеличить план этажа
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="btn-holder">
+						<div class="btn">Выбрать квартиру</div>
+					</div>
+				</div>
+				<a class="close-popup" href="#"><i class="icon-close"></i></a>
+			</div>
+		</div>
+		<div id="popup-phone" class="popup-holder" style="left: -9999px;">
+			<div class="bg">&nbsp;</div>
+			<div class="popup">
+				<div class="popup-info">
+					<form action="#" class="search">
+						<fieldset>
+							<h3>Оставьте вашу заявку</h3>
+							<span>И наш менеджер перезвонит Вам в течении  15 минут</span>
+							<div class="form-row">
+								<i class="icon icon-4"></i>
+								<input type="text" placeholder="Ваше имя" class="required">
+							</div>
+							<div class="form-row">
+								<i class="icon icon-31"></i>
+								<input type="text" placeholder="Ваш телефон" class="phone">
+							</div>
+							<input type="submit" value="Оставить заявку">
+						</fieldset>
+					</form>
+				</div>
+				<a class="close-popup" href="#"><i class="icon-close"></i></a>
+			</div>
+		</div>
+		<div id="popup-flat" class="popup-holder" style="left: -9999px;">
+			<div class="bg1">&nbsp;</div>
+			<div class="popup">
+				<div class="popup-info">
+					<div class="popup-flat-holder">
+						<div class="holder-slider">
+							<div class="stock-box">
+								<span class="stock">Квартира участвует в акции</span>
+							</div>
+							<ul class="popup-gallery">
+								<li data-thumb="Планировка">
+									<img src="images/img8.png" alt="image description">
+								</li>
+								<li data-thumb="На плане этажа">
+									<img src="images/img8.png" alt="image description">
+								</li>
+							</ul>
+							<div class="nav-popup-gallery"></div>
+						</div>
+						<div class="flat-variants">
+							<header class="head">
+								<h3>Cтудия, 20.21 м<sup>2</sup></h3>
+								<span>Выберите цену квартиры 20.21 м<sup>2</sup>
+									<a href="#" class="btn-ask"><i class="icon icon-26"></i></a>
+								</span>
+							</header>
+							<ul class="flat-variants-list">
+								<li>
+									<a href="#">
+										<span class="square">7 520 руб./м<sup>2</sup></span>
+										<span class="cathegory">Стандарт</span>
+										<div class="visual">
+											<img src="images/img15.jpg" alt="image description">
+											<span class="info">Цена с ремонтом</span>
+										</div>
+									</a>
+								</li>
+								<li class="active">
+									<a href="#">
+										<span class="square">2 900 руб./м<sup>2</sup></span>
+										<span class="cathegory">Под чистовую</span>
+										<div class="visual">
+											<img src="images/img16.jpg" alt="image description">
+											<span class="info">Цена с ремонтом</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="square">7 520 руб./м<sup>2</sup></span>
+										<span class="cathegory">Стандарт</span>
+										<div class="visual">
+											<img src="images/img17.jpg" alt="image description">
+											<span class="info">Цена с ремонтом</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="square">8 870 руб./м<sup>2</sup></span>
+										<span class="cathegory">Стандарт+</span>
+										<div class="visual">
+											<img src="images/img17.jpg" alt="image description">
+											<span class="info">Цена с ремонтом</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="square">9 770 руб./м<sup>2</sup></span>
+										<span class="cathegory">Комфорт</span>
+										<div class="visual">
+											<img src="images/img18.jpg" alt="image description">
+											<span class="info">Цена с ремонтом</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<div class="total-price-box">
+								<span class="price">980 000 руб.</span>
+								<div class="holder">
+									<span class="repairs-price">+58 609 руб. ремонт</span>
+									<span class="total-price">=1 038 609 руб.</span>
+								</div>
+							</div>
+							<a href="#" class="design-btn"> <i class="icon icon-27"></i> Дизайн-проект</a>
+							<span class="info-flat">
+								ЖК «Новый Мыс 3.0», ГП-1, 2 этаж. Срок сдачи: II кв. 2019
+							</span>
+						</div>
+					</div>
+					<ul class="order-list">
+						<li>
+							<a href="#">Зафиксировать клиента</a>
+						</li>
+						<li>
+							<a href="#">Записаться на показ</a>
+						</li>
+						<li>
+							<a href="#">Забронировать квартиру</a>
+						</li>
+					</ul>
+				</div>
+				<a class="close-popup" href="#"><i class="icon-close"></i></a>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+

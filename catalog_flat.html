@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>meridian</title>
+		<link rel="stylesheet" href="css/dropdown.css" type="text/css" />
+		<link rel="stylesheet" href="css/slick.css" type="text/css" />
+		<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css" type="text/css" />
+		<link rel="stylesheet" href="css/all.css" type="text/css" />
+		<!--[if lte IE 8]><script type="text/javascript" src="js/ie.js"></script><!<![endif]-->
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing-1.3.min.js"></script>
+		<script type="text/javascript" src="js/core.js"></script>
+		<script type="text/javascript" src="js/dropdown.js"></script>
+		<script type="text/javascript" src="js/icheck.min.js"></script>
+		<script type="text/javascript" src="js/jquery.matchHeight.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.1.10.3.min.js"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript" src="js/jquery.knob.js"></script>
+		<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+		<script type="text/javascript" src="js/jquery.main.js"></script>
+		<script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoy5Uii-OutziNmdaMkfD9gHI5IWoEMLI&sensor=false&callback=initMap"></script>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			<a href="tel:+73452659047" id="popup__toggle">
+				<div class="circlephone" style="transform-origin: center;"></div>
+				<div class="circle-fill" style="transform-origin: center;"></div>
+				<div class="img-circle" style="transform-origin: center;">
+					<div class="img-circleblock" style="transform-origin: center;">
+						<i class="icon icon-18"></i>
+					</div>
+				</div>
+			</a>
+			<span class="bg"></span>
+			<div class="menu-holder">
+				<a href="#" class="close-menu">
+					<i class="icon icon-close"></i>
+				</a>
+				<div class="scroll-holder">
+					<strong class="logo"><a href="#">meridian</a></strong>
+					<nav id="nav">
+						<ul class="nav-menu">
+							<li>
+								<a href="#">
+									<i class="icon icon-1"></i>
+									Каталог объектов
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-2"></i>
+									Каталог квартир
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-3"></i>
+									База знаний
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-4"></i>
+									Личный кабинет
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="bottom-nav-holder">
+						<ul class="bottom-nav-menu">
+							<li>
+								<a href="#">Зафиксировать клиента</a>
+							</li>
+							<li>
+								<a href="#">Записаться на показ</a>
+							</li>
+							<li>
+								<a href="#">Забронировать квартиру</a>
+							</li>
+						</ul>
+						<div class="tel-holder">
+							<a href="tel:" class="tel">+7 (3452) 65-90-47</a>
+							<a href="#" class="calback-btn"><i class="icon icon-5"></i><span>Обратный звонок</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<header id="header" class="all">
+				<div class="center">
+					<a href="#" class="open-menu">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</a>
+					<ul class="header-nav">
+						<li>
+							<a href="#">О застройщике</a>
+						</li>
+						<li>
+							<a href="#">Новости</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+					<div class="tel-holder">
+						<a href="tel:+73452659047" class="tel">+7 (3452) 65-90-47</a>
+						<a href="#" class="calback-btn"><i class="icon icon-5" ></i><span>Обратный звонок</span></a>
+					</div>
+				</div>
+			</header>
+			<main id="main">
+				<header class="main-head-all">
+					<div class="center">
+						<ul class="breadcrumps">
+							<li>
+								<a href="#">Главная</a>
+							</li>
+							<li>Квартиры</li>
+						</ul>
+						<h1>Каталог квартир ГК "Мередиан"</h1>
+					</div>
+				</header>
+				<section class="catalog-flat">
+					<div class="catalog-flat-filter">
+						<div class="center">
+							<div class="slider">
+								<div class="holder">
+									<span class="title">Цена:</span>
+									<div class="columns">
+										<div class="col">
+											<input type="text" class="from">
+										</div>
+										<div class="col">
+											<input  type="text" class="to">
+										</div>
+									</div>
+								</div>
+								<div class="slider-range">
+									<span class="num num1">980 000</span>
+									<div class="num num2">5 130 000</div>
+									<input type="text" class="min_max_currentmin_currentmax" value="980000/5130000/1500000/2080000">
+								</div>
+							</div>
+							<div class="choose-object">
+								<label for="alt01">Объект</label>
+								<select id="alt01" class="select-dropdown">
+									<option>Выбирите объект</option>
+									<option>Студия</option>
+									<option>1-комнатная</option>
+								</select>
+							</div>
+							<div class="object">
+								<span class="title">Объект</span>
+								<ul class="radio-list">
+									<li>
+										<input class="check" name="group01" id="alt02" type="checkbox">
+										<label for="alt02">Студия</label>
+									</li>
+									<li>
+										<input  class="check" name="group01" id="alt03" type="checkbox">
+										<label for="alt03">1-комнатная</label>
+									</li>
+									<li>
+										<input  class="check" name="group01" id="alt04" type="checkbox">
+										<label  for="alt04">2-комнатная</label>
+									</li>
+									<li>
+										<input class="check" name="group01" id="alt05" type="checkbox">
+										<label  for="alt05">3-комнатная</label>
+									</li>
+									<li>
+										<input  class="check" name="group01" id="alt06" type="checkbox">
+										<label for="alt06">По акции</label>
+									</li>
+									<li>
+										<input  class="check" name="group01" id="alt07" type="checkbox">
+										<label  for="alt07">Готовы</label>
+									</li>
+								</ul>
+								<a href="#" class="btn-more"><span>Расширенный поиск</span> <i class="icon icon-28"></i></a>
+							</div>
+							<div class="toggle-block">
+								<div class="catalog-flat-filter">
+									<div class="slider">
+										<div class="holder">
+											<span class="title">Площадь квартиры:</span>
+											<div class="columns">
+												<div class="col">
+													<input type="text" class="from-flat">
+												</div>
+												<div class="col">
+													<input  type="text" class="to-flat">
+												</div>
+											</div>
+										</div>
+										<div class="slider-flat">
+											<span class="num num1 flat">20</span>
+											<div class="num num2 flat">103</div>
+											<input type="text" class="min_max_currentmin_currentmax" value="20/103/25/95">
+										</div>
+									</div>
+									<div class="choose-object">
+										<label>Год сдачи</label>
+										<ul class="check-list">
+											<li>
+												<input class="check" name="group05" id="alt20" type="checkbox">
+												<label for="alt20">2018</label>
+											</li>
+											<li>
+												<input class="check"  name="group05"  id="alt21" type="checkbox">
+												<label for="alt21">2019</label>
+											</li>
+										</ul>
+										<label>Этаж</label>
+										<ul class="check-list">
+											<li>
+												<input class="check" name="group06" id="alt22" type="checkbox">
+												<label for="alt22">Не первый</label>
+											</li>
+											<li>
+												<input class="check"  name="group06"  id="alt23" type="checkbox">
+												<label for="alt23">Не последний</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="btn-holder">
+								<a href="#" class="btn">Показать результаты</a>
+							</div>
+						</div>
+					</div>
+					<div class="center">
+						<div class="flat-block">
+							<header class="main-head">
+								<h2>Студии от 980 000 руб. до 1 640 000 руб.</h2>
+								<p>студии от 20 до 33 м<sup>2</sup>, в продаже 949 квартир</p>
+							</header>
+							<ul class="flat-filter">
+								<li>
+									<input class="radio" name="group02" id="alt08" type="radio">
+									<label for="alt08"><span>Все</span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt09" type="radio">
+									<label for="alt09"><span>20 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt10" type="radio">
+									<label for="alt10"><span>21 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt11" type="radio">
+									<label for="alt11"><span>22 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt12" type="radio">
+									<label for="alt12"><span>23 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt13" type="radio">
+									<label for="alt13"><span>24 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt14" type="radio">
+									<label for="alt14"><span>25 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt15" type="radio">
+									<label for="alt15"><span>26 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt16" type="radio">
+									<label for="alt16"><span>27 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt17" type="radio">
+									<label for="alt17"><span>30 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt18" type="radio">
+									<label for="alt18"><span>31 м<sup>2</sup></span></label>
+								</li>
+							</ul>
+							<div class="table-holder">
+								<table>
+									<thead>
+										<tr>
+											<th class="item1">
+												<span class="price">Цена <i class="icon icon-25"></i></span>
+											</th>
+											<th class="item2">Площадь</th>
+											<th class="item3">Тип</th>
+											<th class="item4">Этаж</th>
+											<th class="item5">Дом</th>
+											<th class="item6">Дата сдачи</th>
+											<th class="item7">Ипотека</th>
+											<th class="item8">Рассрочка</th>
+											<th class="item9">Акции</th>
+											<th class="item10"></th>
+										</tr>
+									</thead>
+									<tbody class="mCustomScrollbar">
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability no">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<a href="#" class="btn-show-all">Смотреть все студии</a>
+						</div>
+						<div class="flat-block">
+							<header class="main-head">
+								<h2>1-комнатные от 1 510 000 руб. до 2 500 000 руб.</h2>
+								<p>1-комнатные от 29 до 48 м<sup>2</sup>, в продаже 401 квартира</p>
+							</header>
+							<ul class="flat-filter">
+								<li>
+									<input class="radio" name="group02" id="alt19" type="radio">
+									<label for="alt19"><span>Все</span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt20" type="radio">
+									<label for="alt20"><span>29 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt21" type="radio">
+									<label for="alt21"><span>30 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt22" type="radio">
+									<label for="alt22"><span>31 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt23" type="radio">
+									<label for="alt23"><span>34 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt24" type="radio">
+									<label for="alt24"><span>35 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt25" type="radio">
+									<label for="alt25"><span>36 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt26" type="radio">
+									<label for="alt26"><span>37 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt27" type="radio">
+									<label for="alt27"><span>38 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt28" type="radio">
+									<label for="alt28"><span>39 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt29" type="radio">
+									<label for="alt29"><span>41 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt30" type="radio">
+									<label for="alt30"><span>42 м<sup>2</sup></span></label>
+								</li>
+							</ul>
+							<div class="table-holder">
+								<table>
+									<thead>
+										<tr>
+											<th class="item1">
+												<span class="price">Цена <i class="icon icon-25"></i></span>
+											</th>
+											<th class="item2">Площадь</th>
+											<th class="item3">Тип</th>
+											<th class="item4">Этаж</th>
+											<th class="item5">Дом</th>
+											<th class="item6">Дата сдачи</th>
+											<th class="item7">Ипотека</th>
+											<th class="item8">Рассрочка</th>
+											<th class="item9">Акции</th>
+											<th class="item10"></th>
+										</tr>
+									</thead>
+									<tbody class="mCustomScrollbar">
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability no">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<a href="#" class="btn-show-all">Смотреть все 1-комнатные</a>
+						</div>
+						<div class="flat-block">
+							<header class="main-head">
+								<h2>2 комнатные от 2 260 000 руб. до 2 940 000 руб.</h2>
+								<p>2 комнатные от 47 до 59 м<sup>2</sup>, в продаже 99 квартир</p>
+							</header>
+							<ul class="flat-filter">
+								<li>
+									<input class="radio" name="group02" id="alt31" type="radio">
+									<label for="alt31"><span>Все</span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt34" type="radio">
+									<label for="alt34"><span>47 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt35" type="radio">
+									<label for="alt35"><span>48 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt36" type="radio">
+									<label for="alt36"><span>49 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt37" type="radio">
+									<label for="alt37"><span>50 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt38" type="radio">
+									<label for="alt38"><span>51 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt39" type="radio">
+									<label for="alt39"><span>54 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt40" type="radio">
+									<label for="alt40"><span>55 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt41" type="radio">
+									<label for="alt41"><span>56 м<sup>2</sup></span></label>
+								</li>
+								<li>
+									<input class="radio" name="group02" id="alt42" type="radio">
+									<label for="alt42"><span>59 м<sup>2</sup></span></label>
+								</li>
+							</ul>
+							<div class="table-holder">
+								<table>
+									<thead>
+										<tr>
+											<th class="item1">
+												<span class="price">Цена <i class="icon icon-25"></i></span>
+											</th>
+											<th class="item2">Площадь</th>
+											<th class="item3">Тип</th>
+											<th class="item4">Этаж</th>
+											<th class="item5">Дом</th>
+											<th class="item6">Дата сдачи</th>
+											<th class="item7">Ипотека</th>
+											<th class="item8">Рассрочка</th>
+											<th class="item9">Акции</th>
+											<th class="item10"></th>
+										</tr>
+									</thead>
+									<tbody class="mCustomScrollbar">
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability no">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+										<tr>
+											<td class="item1"><span class="price">1 150 000 руб.</span></td>
+											<td class="item2">23.67 м<sup>2</sup></td>
+											<td class="item3">студ.</td>
+											<td class="item4"><span class="num">2</span></td>
+											<td class="item5">Новый Мыс 3.0 ГП-1</td>
+											<td class="item6">II кв. 2019</td>
+											<td class="item7">7 532 руб./мес.</td>
+											<td class="item8">40 250 руб./мес.</td>
+											<td class="item9"><span class="availability">Есть</span></td>
+											<td class="item10"><a href="#" class="btn-more">Подробнее</a></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<a href="#" class="btn-show-all">Смотреть все 2-комнатные</a>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+		<footer id="footer">
+				<div class="row-top">
+					<div class="center">
+						<a href="#" class="ask-question">
+							<i class="icon icon-17"></i>
+							<div class="holder">
+								<span class="title">Остались вопросы?</span>
+								<span class="text">Наш менеджер ответит на все интересующие вас вопросы</span>
+							</div>
+						</a>
+						<a href="+3452659047" class="tel">+7 (3452) 65-90-47</a>
+					</div>
+				</div>
+				<div class="row-bot">
+					<div class="center">
+						<span class="copy">© ГК Мередиан, 2017. Все права защищены</span>
+						<span  class="i-media">Создание сайта, реклама в Интернете — <a href="http://dev.i-media.ru/" target="_blank" class="logo-foot"><img src="images/logo-foot.png" alt="image description"></a></span>
+					</div>
+				</div>
+		</footer>
+		<div id="popup-flat" class="popup-holder" style="left: -9999px;">
+			<div class="bg">&nbsp;</div>
+			<div class="popup">
+				<div class="popup-info">
+					<div class="popup-flat-holder">
+						<div class="holder-slider">
+							<div class="stock-box">
+								<span class="stock">Квартира участвует в акции</span>
+							</div>
+							<ul class="popup-gallery">
+								<li data-thumb="Планировка">
+									<img src="images/img8.png" alt="image description">
+								</li>
+								<li data-thumb="На плане этажа">
+									<img src="images/img8.png" alt="image description">
+								</li>
+							</ul>
+							<div class="nav-popup-gallery"></div>
+						</div>
+						<div class="flat-variants">
+							<header class="head">
+								<h3>Cтудия, 20.21 м<sup>2</sup></h3>
+								<span>Выберите цену квартиры 20.21 м<sup>2</sup>
+									<a href="#" class="btn-ask"><i class="icon icon-26"></i></a>
+								</span>
+							</header>
+							<ul class="flat-variants-list">
+								<li>
+									<a href="#">
+										<span class="square">7 520 руб./м<sup>2</sup></span>
+										<span class="cathegory">Стандарт</span>
+										<div class="visual">
+											<img src="images/img15.jpg" alt="image description">
+											<span class="info">Цена с ремонтом</span>
+										</div>
+									</a>
+								</li>
+								<li class="active">
+									<a href="#">
+										<span class="square">2 900 руб./м<sup>2</sup></span>
+										<span class="cathegory">Под чистовую</span>
+										<div class="visual">
+											<img src="images/img16.jpg" alt="image description">
+											<span class="info">Цена с ремонтом</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="square">7 520 руб./м<sup>2</sup></span>
+										<span class="cathegory">Стандарт</span>
+										<div class="visual">
+											<img src="images/img17.jpg" alt="image description">
+											<span class="info">Цена с ремонтом</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="square">8 870 руб./м<sup>2</sup></span>
+										<span class="cathegory">Стандарт+</span>
+										<div class="visual">
+											<img src="images/img17.jpg" alt="image description">
+											<span class="info">Цена с ремонтом</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span class="square">9 770 руб./м<sup>2</sup></span>
+										<span class="cathegory">Комфорт</span>
+										<div class="visual">
+											<img src="images/img18.jpg" alt="image description">
+											<span class="info">Цена с ремонтом</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+							<div class="total-price-box">
+								<span class="price">980 000 руб.</span>
+								<div class="holder">
+									<span class="repairs-price">+58 609 руб. ремонт</span>
+									<span class="total-price">=1 038 609 руб.</span>
+								</div>
+							</div>
+							<a href="#" class="design-btn"> <i class="icon icon-27"></i> Дизайн-проект</a>
+							<span class="info-flat">
+								ЖК «Новый Мыс 3.0», ГП-1, 2 этаж. Срок сдачи: II кв. 2019
+							</span>
+						</div>
+					</div>
+					<ul class="order-list">
+						<li>
+							<a href="#">Зафиксировать клиента</a>
+						</li>
+						<li>
+							<a href="#">Записаться на показ</a>
+						</li>
+						<li>
+							<a href="#">Забронировать квартиру</a>
+						</li>
+					</ul>
+				</div>
+				<a class="close-popup" href="#"><i class="icon-close"></i></a>
+			</div>
+		</div>
+		<div id="popup-phone" class="popup-holder" style="left: -9999px;">
+			<div class="bg">&nbsp;</div>
+			<div class="popup">
+				<div class="popup-info">
+					<form action="#" class="search">
+						<fieldset>
+							<h3>Оставьте вашу заявку</h3>
+							<span>И наш менеджер перезвонит Вам в течении  15 минут</span>
+							<div class="form-row">
+								<i class="icon icon-4"></i>
+								<input type="text" placeholder="Ваше имя" class="required">
+							</div>
+							<div class="form-row">
+								<i class="icon icon-31"></i>
+								<input type="text" placeholder="Ваш телефон" class="phone">
+							</div>
+							<input type="submit" value="Оставить заявку">
+						</fieldset>
+					</form>
+				</div>
+				<a class="close-popup" href="#"><i class="icon-close"></i></a>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+

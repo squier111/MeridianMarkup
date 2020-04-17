@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="format-detection" content="telephone=no"/>
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>meridian</title>
+		<link rel="stylesheet" href="css/dropdown.css" type="text/css" />
+		<link rel="stylesheet" href="css/slick.css" type="text/css" />
+		<link rel="stylesheet" href="css/all.css" type="text/css" />
+		<!--[if lte IE 8]><script type="text/javascript" src="js/ie.js"></script><!<![endif]-->
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing-1.3.min.js"></script>
+		<script type="text/javascript" src="js/core.js"></script>
+		<script type="text/javascript" src="js/dropdown.js"></script>
+		<script type="text/javascript" src="js/icheck.min.js"></script>
+		<script type="text/javascript" src="js/jquery.matchHeight.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.1.10.3.min.js"></script>
+		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript" src="js/jquery.knob.js"></script>
+		<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+		<script type="text/javascript" src="js/jquery.main.js"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoy5Uii-OutziNmdaMkfD9gHI5IWoEMLI&sensor=false&callback=initMap"></script>
+
+	</head>
+	<body>
+		<div id="wrapper">
+			<a href="tel:+73452659047" id="popup__toggle">
+				<div class="circlephone" style="transform-origin: center;"></div>
+				<div class="circle-fill" style="transform-origin: center;"></div>
+				<div class="img-circle" style="transform-origin: center;">
+					<div class="img-circleblock" style="transform-origin: center;">
+						<i class="icon icon-18"></i>
+					</div>
+				</div>
+			</a>
+			<span class="bg"></span>
+			<div class="menu-holder">
+				<a href="#" class="close-menu">
+					<i class="icon icon-close"></i>
+				</a>
+				<div class="scroll-holder">
+					<strong class="logo"><a href="#">meridian</a></strong>
+					<nav id="nav">
+						<ul class="nav-menu">
+							<li>
+								<a href="#">
+									<i class="icon icon-1"></i>
+									Каталог объектов
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-2"></i>
+									Каталог квартир
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-3"></i>
+									База знаний
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<i class="icon icon-4"></i>
+									Личный кабинет
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="bottom-nav-holder">
+						<ul class="bottom-nav-menu">
+							<li>
+								<a href="#">Зафиксировать клиента</a>
+							</li>
+							<li>
+								<a href="#">Записаться на показ</a>
+							</li>
+							<li>
+								<a href="#">Забронировать квартиру</a>
+							</li>
+						</ul>
+						<div class="tel-holder">
+							<a href="tel:" class="tel">+7 (3452) 65-90-47</a>
+							<a href="#" class="calback-btn"><i class="icon icon-5"></i><span>Обратный звонок</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<header id="header">
+				<div class="center">
+					<a href="#" class="open-menu">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</a>
+					<ul class="header-nav">
+						<li>
+							<a href="#">О застройщике</a>
+						</li>
+						<li>
+							<a href="#">Новости</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+					<div class="tel-holder">
+						<a href="tel:+73452659047" class="tel">+7 (3452) 65-90-47</a>
+						<a href="#" class="calback-btn"><i class="icon icon-6" ></i><span>Обратный звонок</span></a>
+					</div>
+				</div>
+			</header>
+			<main id="main">
+				<section class="main-screen">
+					<div class="main-slider-holder">
+						<div class="knob-holder">
+							<input class="knob" data-fgColor="#f3292e"  data-displayInput="false"  data-width="40" data-thickness=".15"  data-max="50" value="0">
+						</div>
+						<ul class="main-slider">
+							<li class="flex-image-holder">
+								<img class="flex-image" src="images/main-slide1.png" alt="image description">
+								<div class="center">
+									<div class="table">
+										<div class="cell">
+											<h2>Ремонт в квартире за 57 000 руб.</h2>
+											<h3>Итого: Квартира с ремонтом от 1 200 000 рублей</h3>
+											<a href="#" class="btn">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="flex-image-holder">
+								<img class="flex-image" src="images/main-slide1.png" alt="image description">
+								<div class="center">
+									<div class="table">
+										<div class="cell">
+											<h2>Ремонт в квартире за 57 000 руб.</h2>
+											<h3>Итого: Квартира с ремонтом от 1 200 000 рублей</h3>
+											<a href="#" class="btn">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="flex-image-holder">
+								<img class="flex-image" src="images/main-slide1.png" alt="image description">
+								<div class="center">
+									<div class="table">
+										<div class="cell">
+											<h2>Ремонт в квартире за 57 000 руб.</h2>
+											<h3>Итого: Квартира с ремонтом от 1 200 000 рублей</h3>
+											<a href="#" class="btn">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="flex-image-holder">
+								<img class="flex-image" src="images/main-slide1.png" alt="image description">
+								<div class="center">
+									<div class="table">
+										<div class="cell">
+											<h2>Ремонт в квартире за 57 000 руб.</h2>
+											<h3>Итого: Квартира с ремонтом от 1 200 000 рублей</h3>
+											<a href="#" class="btn">Узнать подробнее</a>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="slider-nav-holder">
+						<div class="center">
+							<ul class="slider-nav">
+								<li >
+									<a href="#" class="flex-image-holder">
+										<img class="flex-image" src="images/main-slide-nav1.png" alt="image description">
+										<div class="holder">
+											<span class="size">Cтудия 25 м<sup>2</sup></span>
+											<span class="title">ЖК Новый мыс 3.0</span>
+											<span class="price">950 000 руб.</span>
+										</div>
+										<span class="top">top</span>
+									</a>
+								</li>
+								<li>
+									<a href="#"  class="flex-image-holder">
+										<img class="flex-image" src="images/main-slide-nav2.png" alt="image description">
+										<div class="holder">
+											<span class="size">1-комнатная 35 м<sup>2</sup></span>
+											<span class="title">ЖК Заречный</span>
+											<span class="price">1 550 000 руб.</span>
+										</div>
+										<span class="top">top</span>
+									</a>
+								</li>
+								<li >
+									<a href="#" class="flex-image-holder">
+										<img class="flex-image" src="images/main-slide-nav3.png" alt="image description">
+										<div class="holder">
+											<span class="size">2-комнатная 55 м<sup>2</sup></span>
+											<span class="title">ЖК Легеда парк</span>
+											<span class="price">2 250 000 руб.</span>
+										</div>
+										<span class="top">top</span>
+									</a>
+								</li>
+								<li >
+									<a href="#" class="flex-image-holder" >
+										<img class="flex-image" src="images/main-slide-nav1.png" alt="image description">
+										<div class="holder">
+											<span class="size">Cтудия 25 м<sup>2</sup></span>
+											<span class="title">ЖК Новый мыс 3.0</span>
+											<span class="price">950 000 руб.</span>
+										</div>
+										<span class="top">top</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section class="our-objects">
+					<header class="main-head">
+						<div class="center">
+							<h2>Наши объекты</h2>
+						</div>
+					</header>
+					<ul class="our-objects-list">
+						<li class="flex-image-holder">
+							<a href="#">
+								<img class="flex-image" src="images/img1.jpg" alt="image description">
+								<header class="head">
+									<span class="title">ЖК Новый мыс</span>
+									<span class="price">от 2 035 456 руб.</span>
+								</header>
+								<ul class="list">
+									<li>
+										<span class="text">1-я очередь:</span>
+										<div class="num-holder">
+											<span class="graph">
+												<span data-max=9 class="num">0</span>
+												<span data-max=9 class="progressGraph">
+												</span>
+											</span>
+										</div>
+									</li>
+								</ul>
+							</a>
+						</li>
+						<li class="flex-image-holder">
+							<a href="#">
+								<img class="flex-image" src="images/img2.jpg" alt="image description">
+								<header class="head">
+									<span class="title">ЖК Заречный</span>
+									<span class="price">от 1 060 000 руб.</span>
+								</header>
+								<ul class="list">
+									<li>
+										<span class="text">1-я очередь:</span>
+										<div class="num-holder">
+											<span class="graph">
+												<span data-max=99 class="num">0</span>
+												<span data-max=99 class="progressGraph" >
+												</span>
+											</span>
+										</div>
+									</li>
+									<li>
+										<span class="text">2-я очередь:</span>
+										<div class="num-holder">
+											<span class="graph">
+												<span data-max=7 class="num">0</span>
+												<span data-max=7 class="progressGraph" >
+												</span>
+											</span>
+										</div>
+									</li>
+								</ul>
+							</a>
+						</li>
+						<li class="flex-image-holder">
+							<a href="#">
+								<img class="flex-image" src="images/img3.jpg" alt="image description">
+								<header class="head">
+									<span class="title">ЖК Легенда парк</span>
+									<span class="price">от 1 835 456 руб.</span>
+								</header>
+								<ul class="list">
+									<li>
+										<span class="text">1-я очередь:</span>
+										<div class="num-holder">
+											<span class="graph">
+												<span data-max=99 class="num">0</span>
+												<span data-max=99 class="progressGraph" >
+												</span>
+											</span>
+										</div>
+									</li>
+									<li>
+										<span class="text">2-я очередь:</span>
+										<div class="num-holder">
+											<span class="graph">
+												<span data-max=65 class="num">0</span>
+												<span data-max=65 class="progressGraph" >
+												</span>
+											</span>
+										</div>
+									</li>
+									<li>
+										<span class="text">3-я очередь:</span>
+										<div class="num-holder">
+											<span class="graph">
+												<span data-max=12 class="num">0</span>
+												<span data-max=12 class="progressGraph" >
+												</span>
+											</span>
+										</div>
+									</li>
+								</ul>
+							</a>
+						</li>
+					</ul>
+				</section>
+				<section class="type-flat">
+					<div class="center">
+						<div class="info-box">
+							<h2>Типы квартир</h2>
+							<span class="info">Выбирите идеальный вариант для Вас</span>
+							<div class="arrow-box">
+								<a href="#" class="prev">prev</a>
+								<a href="#" class="next">next</a>
+							</div>
+						</div>
+						<ul class="type-list">
+							<li>
+								<a href="#">
+									<div class="visual">
+										<img src="images/img1.png" alt="image description">
+									</div>
+									<span class="title">Студии</span>
+									<span class="info">В продаже 964 квартиры</span>
+									<span class="price">от 980 000 руб.</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="visual">
+										<img src="images/img2.png" alt="image description">
+									</div>
+									<span class="title">1-комнатные</span>
+									<span class="info">В продаже 664 квартиры</span>
+									<span class="price">от 1 500 000 руб.</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="visual">
+										<img src="images/img3.png" alt="image description">
+									</div>
+									<span class="title">2-комнатные</span>
+									<span class="info">В продаже 764 квартиры</span>
+									<span class="price">от 2 260 000 руб.</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="visual">
+										<img src="images/img1.png" alt="image description">
+									</div>
+									<span class="title">Студии</span>
+									<span class="info">В продаже 964 квартиры</span>
+									<span class="price">от 980 000 руб.</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="advantages">
+					<div class="center">
+						<header class="main-head">
+							<h2>Преимущества</h2>
+						</header>
+						<ul class="advantages-list">
+							<li>
+								<div class="visual">
+									<i class="icon icon-8"></i>
+								</div>
+								<p>Самые энергоэффективные дома в Росии</p>
+							</li>
+							<li>
+								<div class="visual">
+									<i class="icon icon-7"></i>
+								</div>
+								<p>Запатентованная технология строительства</p>
+							</li>
+							<li>
+								<div class="visual">
+									<i class="icon icon-9"></i>
+								</div>
+								<p>Наличие подземной и наземной крытой пароковки</p>
+							</li>
+							<li>
+								<div class="visual">
+									<i class="icon icon-10"></i>
+								</div>
+								<p>Огороженная охраняемая територия</p>
+							</li>
+							<li>
+								<div class="visual">
+									<i class="icon icon-11"></i>
+								</div>
+								<p>Хорошая экология: рядом озеро <br> и лес</p>
+							</li>
+							<li>
+								<div class="visual">
+									<i class="icon icon-12"></i>
+								</div>
+								<p>Дизайн и растановка квартир с мебелью IKEA</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="map-frame">
+					<header class="main-head">
+						<div class="center">
+							<h2>Инфраструктура</h2>
+						</div>
+					</header>
+					<div class="map-holder">
+						<ul class="marker-filter">
+							<li data-name="name1">
+								<a href="#">
+									<i class="icon icon-3"></i>
+									Школа
+								</a>
+							</li>
+							<li data-name="name2">
+								<a href="#">
+									<i class="icon icon-13"></i>
+									Детский сад
+								</a>
+							</li>
+							<li data-name="name3">
+								<a href="#">
+									<i class="icon icon-14"></i>
+									Поликлиника
+								</a>
+							</li>
+							<li data-name="name4">
+								<a href="#">
+									<i class="icon icon-15"></i>
+									Торговый центр
+								</a>
+							</li>
+						</ul>
+						<div id="map-canvas"></div>
+						<ul class="order-list">
+							<li>
+								<a href="#">Зафиксировать клиента</a>
+							</li>
+							<li>
+								<a href="#">Записаться на показ</a>
+							</li>
+							<li>
+								<a href="#">Забронировать квартиру</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="news-frame">
+					<div class="center">
+						<header class="main-head">
+							<h2>Новости</h2>
+							<div class="arrow-box">
+								<a href="#" class="prev">prev</a>
+								<a href="#" class="next">next</a>
+							</div>
+						</header>
+						<ul class="news-list gallery">
+							<li>
+								<a href="#">
+									<div class="visual">
+										<img src="images/img4.jpg" alt="image description">
+										<div class="date-block">
+											<span class="date">26.09</span>
+											<span class="year">2017</span>
+										</div>
+									</div>
+									<h3>Получайте ключи и живите! Квартиры с ремонтом и мебелью за 1.240 тыс. рублей</h3>
+									<p>Один из лидеров тюменского рынка – застройщик «Меридиан» предлагает квартиры с ремонтом и мебелью. Цена готовой жизни «под ключ» - от 1.240 тыс. рублей...</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="visual">
+										<img src="images/img5.jpg" alt="image description">
+										<div class="date-block">
+											<span class="date">26.09</span>
+											<span class="year">2017</span>
+										</div>
+									</div>
+									<h3>14 октября ждем тюменцев на экскурсию по нашим новостройкам!</h3>
+									<p>Приглашаем тюменцев в субботу, 14 октября на экскурсию по новостройкам "Меридиана"! Для вас - самые-самые интересные предложения квартир в домах...</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="visual">
+										<img src="images/img6.jpg" alt="image description">
+										<div class="date-block">
+											<span class="date">26.09</span>
+											<span class="year">2017</span>
+										</div>
+									</div>
+									<h3>В ЖК "Легенда Парк" открыта специализированная велосипедная трасса - памп-трек!</h3>
+									<p>Уникальное спортивное сооружение появилось в Тюмени. Памп-трек или, по-другому, специализированная велосипедная трасса, открыта в ЖК "Легенда Парк"...</p>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<div class="visual">
+										<img src="images/img4.jpg" alt="image description">
+										<div class="date-block">
+											<span class="date">26.09</span>
+											<span class="year">2017</span>
+										</div>
+									</div>
+									<h3>Получайте ключи и живите! Квартиры с ремонтом и мебелью за 1.240 тыс. рублей</h3>
+									<p>Один из лидеров тюменского рынка – застройщик «Меридиан» предлагает квартиры с ремонтом и мебелью. Цена готовой жизни «под ключ» - от 1.240 тыс. рублей...</p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</main>
+		</div>
+		<footer id="footer">
+				<div class="row-top">
+					<div class="center">
+						<a href="#" class="ask-question">
+							<i class="icon icon-17"></i>
+							<div class="holder">
+								<span class="title">Остались вопросы?</span>
+								<span class="text">Наш менеджер ответит на все интересующие вас вопросы</span>
+							</div>
+						</a>
+						<a href="+3452659047" class="tel">+7 (3452) 65-90-47</a>
+					</div>
+				</div>
+				<div class="row-bot">
+					<div class="center">
+						<span class="copy">© ГК Мередиан, 2017. Все права защищены</span>
+						<span  class="i-media">Создание сайта, реклама в Интернете — <a href="http://dev.i-media.ru/" target="_blank" class="logo-foot"><img src="images/logo-foot.png" alt="image description"></a></span>
+					</div>
+				</div>
+		</footer>
+		<div id="popup-phone" class="popup-holder" style="left: -9999px;">
+			<div class="bg">&nbsp;</div>
+			<div class="popup">
+				<div class="popup-info">
+					<form action="#" class="search">
+						<fieldset>
+							<h3>Оставьте вашу заявку</h3>
+							<span>И наш менеджер перезвонит Вам в течении  15 минут</span>
+							<div class="form-row">
+								<i class="icon icon-4"></i>
+								<input type="text" placeholder="Ваше имя" class="required">
+							</div>
+							<div class="form-row">
+								<i class="icon icon-31"></i>
+								<input type="text" placeholder="Ваш телефон" class="phone">
+							</div>
+							<input type="submit" value="Оставить заявку">
+						</fieldset>
+					</form>
+				</div>
+				<a class="close-popup" href="#"><i class="icon-close"></i></a>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
